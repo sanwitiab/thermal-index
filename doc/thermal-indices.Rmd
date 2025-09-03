@@ -1,0 +1,21 @@
+---
+title: "Thermal indices"
+author: "sanwit"
+date: "2025-09-03"
+output: word_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Thermal indices
+
+Climate change has been linked to an increased frequency and intensity of extreme weather events on a global scale. Consequently, the study of thermal stress discomfort and health risks resulting from exposure to extreme heat or cold has garnered significant scientific interest [@dasgupta2024; @kiarsi2023]. This is of particular concern due to its pronounced adverse effects on human health, especially among vulnerable demographics including the elderly, the chronically ill, and socioeconomically disadvantaged communities [@vandenberg2015]. A review by @lam2021 concludes that evaluations utilizing outdoor thermal indices can be effectively applied to inform urban design and propose mitigation strategies aimed at minimizing the negative impacts of thermal stress. However, the effective application of these indices necessitates a critical understanding of the selected numerical simulation model. Key considerations must include the specific aims of the study, the requisite input data, and the prevailing climate conditions of the area under investigation.
+
+A majority of thermal indices are derived from generalized measurement outcomes—such as wind chill, cooling power, and wet bulb temperature—alongside empirically observed physiological responses to thermal stress, including physiological strain and effective temperature [@blazejczyk2012]. Numerous empirical indices, for instance, the Heat Index (HI), Humidex, Net Effective Temperature (NET), and Wind Chill Temperature (WCT), incorporate merely two or three environmental parameters (e.g., air temperature and relative humidity). Consequently, their applicability is restricted to indoor or shaded outdoor environments [@yan2021a].
+
+In contrast, several comprehensively developed indices—such as the Universal Thermal Climate Index (UTCI), Standard Effective Temperature (SET), and Physiological Equivalent Temperature (PET)—integrate a wider array of meteorological factors. This enhanced complexity permits their application in both indoor and outdoor settings. The UTCI, for example, accounts for a suite of meteorological variables (including air temperature, humidity, wind speed, and mean radiant temperature) in addition to personal factors such as metabolic rate and clothing insulation. This holistic approach renders it applicable across diverse climates, seasons, and spatial scales.
+
+More recently, the COMFA (COMfort FormulA) model has been applied as an evaluation tool predicated on the human energy balance within a given outdoor environment. Its formulation incorporates core thermophysiological parameters (e.g., clothing and skin temperatures) and refines the calculation of energy fluxes by differentiating radiant energy and simplifying respiratory heat loss. By quantifying these individual energy components, the COMFA model more precisely identifies the primary sources of thermal discomfort. This clarity provides designers with targeted insights, enabling the development of more effective, climate-adaptive design strategies [@wu2023].
